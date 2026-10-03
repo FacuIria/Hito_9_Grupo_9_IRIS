@@ -1,0 +1,18 @@
+services:
+  iris:
+    image: intersystems/iris-community:latest-cd
+    container_name: baseDeDatosIIIRIS
+    init: true
+    restart: unless-stopped
+
+    ports:
+      - "1972:1972"
+      - "52773:52773"
+
+    environment:
+      ISC_DATA_DIRECTORY: /durable/iris
+
+    volumes:
+      - ${HOME}/docker/data/iris:/durable
+      - ./src:/src
+      - ./scripts:/scripts

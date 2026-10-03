@@ -1,0 +1,23 @@
+HITO 9 - PERSISTENCIA ANTES DE RECREAR
+
+Fri Oct  2 21:01:52 -03 2026
+
+MOUNTS:
+/Users/facundo/docker/data/iris -> /durable
+/Users/facundo/Desktop/Grupo_9_Hito_9_IRIS_Entidades_Complejas/src -> /src
+/Users/facundo/Desktop/Grupo_9_Hito_9_IRIS_Entidades_Complejas/scripts -> /scripts
+
+
+OBJETO EXISTENTE:
+
+Node: d036f8fedabf, Instance: IRIS
+
+USER>
+
+USER>
+P001
+
+USER>
+2
+
+USER>

@@ -1,0 +1,10 @@
+.DS_Store
+.env
+
+# No incluir datos persistentes de IRIS
+iris/
+data/
+
+# Archivos temporales
+*.log
+*.tmp

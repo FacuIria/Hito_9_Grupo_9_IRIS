@@ -1,0 +1,34 @@
+
+Node: d036f8fedabf, Instance: IRIS
+
+USER>
+========================================
+HITO 9 - PRUEBAS DE OBJETOS
+========================================
+
+1) CONSULTA SQL - PARTIDO
+1 | P001 | AAA | AAB | Estadio Buenos Aires | EnCurso
+
+2) CONSULTA SQL - EVENTOS
+1||1 | Gol | minuto 23 | Gol del equipo local | Partido=1
+1||2 | TarjetaAmarilla | minuto 41 | Tarjeta amarilla al visitante | Partido=1
+
+3) NAVEGACION POR OBJETOS
+Partido: P001
+Eventos: 2
+Gol - minuto 23
+TarjetaAmarilla - minuto 41
+
+4) VALIDACION DE ESTADO
+ERROR: no se pueden agregar eventos a un partido finalizado
+
+ERROR #5001: No se pueden agregar eventos a un partido finalizado
+5) PROPIEDAD REQUIRED
+Carga rechazada correctamente:
+
+ERROR #5659: Property 'Fixture2030.Partido::Sede(15@Fixture2030.Partido,ID=)' required
+========================================
+FIN PRUEBAS HITO 9
+========================================
+
+USER>

@@ -1,0 +1,27 @@
+HITO 9 - PERSISTENCIA DESPUES DE RECREAR
+
+Fri Oct  2 21:02:30 -03 2026
+
+CONTENEDOR:
+NAME                IMAGE                                   COMMAND                 SERVICE   CREATED          STATUS          PORTS
+baseDeDatosIIIRIS   intersystems/iris-community:latest-cd   "/tini -- /iris-main"   iris      18 seconds ago   Up 18 seconds   0.0.0.0:1972->1972/tcp, [::]:1972->1972/tcp, 0.0.0.0:52773->52773/tcp, [::]:52773->52773/tcp
+
+MOUNTS:
+/Users/facundo/Desktop/Grupo_9_Hito_9_IRIS_Entidades_Complejas/scripts -> /scripts
+/Users/facundo/docker/data/iris -> /durable
+/Users/facundo/Desktop/Grupo_9_Hito_9_IRIS_Entidades_Complejas/src -> /src
+
+
+OBJETO RECUPERADO:
+
+Node: ac6e640b157f, Instance: IRIS
+
+USER>
+
+USER>
+P001
+
+USER>
+2
+
+USER>
